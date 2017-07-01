@@ -1,5 +1,8 @@
 .header
   @extend .wrap
+  @extend .row
+
+  position: relative
 
   h1
     @extend .title
@@ -8,3 +11,17 @@
     font-style: italic
     text-transform: uppercase
     text-shadow: 8px 4px 8px rgba(255, 255, 255, 0.5)
+    margin: 0
+
+  img
+    position: absolute
+    display: block
+    max-height: 50px
+
+  .img1
+    right: 16px
+    top: 10px
+
+  .img2
+    right: 75px
+    top: 10px
